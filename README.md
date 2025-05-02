@@ -117,6 +117,8 @@ docker run -it --name section-container -p 9870:9870 -p 8088:8088 -p 9000:9000 b
   ```bash
   python mrjob_script.py input_file
   ```
+---
+> Docker can consume a significant amount of system memory. To limit its usage, copy the `.wslconfig` file to your user directory (e.g., `C:\Users\YourUsername\`).
 
 ---
 

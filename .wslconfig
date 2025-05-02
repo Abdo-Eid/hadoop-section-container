@@ -1,0 +1,4 @@
+[wsl2]
+memory=4GB   # Set max RAM for WSL (adjust as needed)
+processors=4  # Limit CPU usage
+swap=2GB      # Swap size (optional)
